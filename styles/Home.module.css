@@ -1,19 +1,15 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
 }
 
 .footer {
-  display: flex;
+  display: none;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
